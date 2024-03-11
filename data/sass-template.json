@@ -1,0 +1,19 @@
+{
+  "aliases" : { },
+  "index_patterns" : [ "sass*" ],
+  "mappings" : {
+    "properties" : {
+      "postnummer_geopoint" : {
+        "type" : "geo_point"
+      }
+    }
+  },
+  "order" : 1,
+  "settings" : {
+    "index" : {
+      "number_of_replicas" : "1",
+      "number_of_shards" : "1",
+      "refresh_interval" : "10s"
+    }
+  }
+}
